@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoPopup.MainPage">
+
+    <StackLayout VerticalOptions="Center" Margin="24">
+
+        <Button Text="{Binding SelectedItem.Text}" Command="{Binding ClickCommand}"/>
+    </StackLayout>
+
+</ContentPage>
